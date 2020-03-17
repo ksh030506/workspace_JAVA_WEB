@@ -1,0 +1,36 @@
+package com.javalec.ex.dto;
+
+import java.sql.Timestamp;
+
+public class BDto {
+	
+//	CREATE TABLE mvc_board (
+//		    bId NUMBER(4) PRIMARY KEY,
+//		    bName VARCHAR2(20),
+//		    bTitle VARCHAR2(100),
+//		    bContent VARCHAR2(300),
+//		    bDate date default sysdate,
+//		    bHit number(4) default 0,
+//		    bGroup number(4),
+//		    bStep NUMBER(4),
+//		    bIndent NUMBER(4)
+//		    );
+	
+	
+	int bId;
+	String bName;
+	String bTitle;
+	String bContent;
+	Timestamp bDate;
+	int bHit;
+	int bGroup;
+	int bStep;
+	int bIndent;
+	
+	public BDto() {}
+	
+	public BDto() {
+		
+	}
+
+}

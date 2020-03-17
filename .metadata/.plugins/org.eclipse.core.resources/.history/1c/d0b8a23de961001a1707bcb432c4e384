@@ -1,0 +1,10 @@
+package Java_algorithm_Ex;
+
+//입력된수 만큼 N행 N열의 형태로 연속으로 출력되는 숫자 사각형 출력
+public class _10_Main {
+	public static void main(String[] args) {
+		for() {
+			for(int i = 0;;;)
+		}
+	}
+}

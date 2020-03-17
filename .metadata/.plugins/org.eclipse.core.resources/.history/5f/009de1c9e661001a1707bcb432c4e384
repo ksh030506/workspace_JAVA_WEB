@@ -1,0 +1,8 @@
+package Java_algorithm_Ex;
+
+//팩토리얼 구하기
+public class _8_Main {
+	public static void main(String[] args) {
+		
+	}
+}

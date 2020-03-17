@@ -1,0 +1,11 @@
+package com.javalec.ex;
+
+import org.apache.catalina.Service;
+
+public class MembersAllService implements Service{
+	public MembersAllService() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}

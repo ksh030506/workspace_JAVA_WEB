@@ -1,0 +1,20 @@
+package com.javalec.ex.dto;
+
+public class BDto {
+	
+//	CREATE TABLE mvc_board (
+//		    bId NUMBER(4) PRIMARY KEY,
+//		    bName VARCHAR2(20),
+//		    bTitle VARCHAR2(100),
+//		    bContent VARCHAR2(300),
+//		    bDate date default sysdate,
+//		    bHit number(4) default 0,
+//		    bGroup number(4),
+//		    bStep NUMBER(4),
+//		    bIndent NUMBER(4)
+//		    );
+	
+	
+	
+
+}

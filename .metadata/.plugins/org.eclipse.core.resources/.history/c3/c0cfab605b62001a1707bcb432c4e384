@@ -1,0 +1,51 @@
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%!
+	String name, id, pw, phone1, phone2, phone3, gender;
+
+	Connection connection;
+	Statement stmt;
+	ResultSet rs;
+	
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<%
+	id = (String)session.getAttribute("id");
+
+	String query = "select * from member where id = '" + id + "';
+	
+
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "ksh030506", "000000");
+		stmt = connection.createStatement();
+		rs = stmt.executeQuery(query);
+		
+		while(rs.next()){
+			name = rs.getString("name");
+			pw = rs.getString("id");
+			phone1 = rs.getString("phone1");
+			phone2 = rs.getString("phone2");
+			phone3 = rs.getString("phone3");
+			gender = rs.getString("gender");
+		}
+
+%>
+
+
+
+
+
+
+
+</body>
+</html>

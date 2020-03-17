@@ -1,0 +1,16 @@
+package _7;
+
+//소수 판별하기
+public class Main {
+	public static void main(String[] args) {
+		int num = 13;
+		
+		//소수 1과 자기자신만을 제외하고 나우어 떨어지면 -> 소수가 아님
+		//1과 자기자신만 나누어떨어지면 -> 소수
+		
+		for (int i = 1; i < args.length; i++) {
+			
+		}
+	}
+
+}
