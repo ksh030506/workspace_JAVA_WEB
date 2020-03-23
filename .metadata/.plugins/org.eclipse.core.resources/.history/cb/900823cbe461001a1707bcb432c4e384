@@ -1,9 +1,0 @@
-package _7;
-
-//소수 판별하기
-public class Main {
-	public static void main(String[] args) {
-		
-	}
-
-}

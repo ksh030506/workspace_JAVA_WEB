@@ -1,8 +1,0 @@
-package _6;
-
-//입력된 두 수의 최대공약수를 구하시오
-public class Main {
-	public static void main(String[] args) {
-		
-	}
-}
